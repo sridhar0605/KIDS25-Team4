@@ -7,7 +7,7 @@ For visual tracking and assignments, also see the [GitHub Project Board](../../p
 
 ---
 
-## 🔬 Whole-Genome Sequencing (WGS)
+## 🧬 Whole-Genome Sequencing (WGS)
 
 - [ ] **User Interface**
   - Capture input parameters (BAM list, project name, output path).
