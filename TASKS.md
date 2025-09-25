@@ -61,6 +61,6 @@ For visual tracking and assignments, also see the [GitHub Project Board](../../p
 
 Team members can add their name next to a task they are taking on. Example:
 
-- [ ] Rewrite in Python 3 (**Owner: Alice**)
+- [ ] Rewrite in Python 3 (**Owner: Jenn O'Micks**)
 
 ---
