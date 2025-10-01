@@ -40,6 +40,7 @@ Press Ctrl+A, then D to detach
 **To reconnect to the session:**
 
 screen -r streamlit
+
 **To list all screen sessions:**
 screen -ls
 
