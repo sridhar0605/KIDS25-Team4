@@ -83,7 +83,7 @@ process COMBINE_RESULTS {
         talen_df = pd.read_csv(talen_file, sep='\\t')
         
         # Find corresponding row in input
-        input_row = input_df[input_df['Pos'] == position].iloc[0].to_dict()
+        input_row = input_df[input_df['mtDNA_pos'] == position].iloc[0].to_dict()
         
         # For each row in talen_output, duplicate the input row data
         for idx, talen_row in talen_df.iterrows():
@@ -117,8 +117,8 @@ workflow {
     rows_ch = input_tab
         .splitCsv(header: true, sep: '\t')
         .flatMap { row ->
-            def pos = row.Pos
-            def alt_allele = row.Alternative_allele
+            def pos = row['mtDNA_pos']
+            def alt_allele = row['Ref. Allele']
             def bases = ['A', 'C', 'T', 'G']
             
             // Generate test bases (all except the alternative allele)
