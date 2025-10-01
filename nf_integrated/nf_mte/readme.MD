@@ -7,7 +7,7 @@
 
 ## Set test data variables  
 `INPUT_MTE_SEQ="NC_012920.1.txt"`  
-`POSITION=11696`  
+`POSITION=11889`  
 `BASE="A"`  
 `OUTPUT_MTE_PRE="test"`  
 `BYSTANDER_INPUT=NO_FILE`
